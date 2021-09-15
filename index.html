@@ -61,7 +61,7 @@
       <div class="container">
       
         <div id="logo" class="pull-left">
-          <a href="index.html"><img src="img/logo.jpeg" alt="" title="" /></img></a>
+          <a href="index.html"><img src="img/3.png" alt="" title="" /></img></a>
           <!-- Uncomment below if you prefer to use a text image -->
           <!--<h1><a href="#hero">Bell</a></h1>-->
         </div>
@@ -90,15 +90,15 @@
       <div class="container text-center">
         <div class="row">
           <div class="col-md-12">
-            <a class="hero-brand" href="index.html" title="Home"><img alt="Bell Logo" src="img/logo.jpeg" style="width: 100px; height: 100px;"></a>
+            <a class="hero-brand" href="index.html" title="Home"><img alt="Bell Logo" src="img/3.png" style="width: 400px; height: 250px;"></a>
           </div>
         </div>
 
         <div data-aos="fade-up" class="caption col-md-12">
           <h2>
-            ABOGADOS
+            ATLASIAN
           </h2>
-          <h2>FINTECH</h2>
+          <h2>ABOGADOS ASOCIADOS</h2>
           <div data-aos="fade-down">
             <p class="tagline">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, molestiae!
@@ -129,13 +129,13 @@
 
         <div data-aos="fade-right" class="row stats-row">
 
-          <div class="container-card">
+          <div class="container-card img-fluid">
             <div class="card">
               <div class="cover">
                 <!-- <h1></h1> -->
                 <img src="img/DerechoL.jpg" style="width: 100% ; height: 140%;" alt="">
               </div>
-              <div class="content-case">
+              <div class="content-case" id="dl">
                 <div class="content">
                   <h3>Derecho Laboral</h3>
                   <p>es una rama del derecho cuyos principios y normas jurídicas tienen por objeto la tutela del trabajo humano realizado en forma libre, por cuenta ajena, en relación de dependencia y a cambio de una contraprestación.</p>
@@ -149,7 +149,7 @@
                 <!-- <h1>About</h1> -->
                 <img src="img/RedaccionD.jpg" style="width: 100% ; height: 140%;" alt="">
               </div>
-              <div class="content-case">
+              <div class="content-case" id="rd">
                 <div class="content">
                   <h3>Redacción de documento.</h3>
                   <p>Los documentos legales deben ser un compendio organizado y redactado en idioma legal de ciertas ideas que reflejen deseos, respuestas o inquietudes.</p>
@@ -163,7 +163,7 @@
                 <!-- <h1>About</h1> -->
                 <img src="img/TramitesL.jpg" style="width: 100% ; height: 140%;" alt="">
               </div>
-              <div class="content-case">
+              <div class="content-case" id="tl">
                 <div class="content">
                   <h3>Tramites Legales.</h3>
                   <p>Es el proceso que se realiza ante las autoridades locales para obtener, entre otros, la aprobación de los planos para la construcción, licencia para construir y visto bueno para ocupar un inmueble.</p>
@@ -208,7 +208,7 @@
         </p>
 
         <div  class="row">
-          <div  class="feature-col col-lg-4 col-xs-12">
+          <div  class="feature-col col-lg-4 col-xs-12" id="com">
             <div data-aos="fade-down" class="container-c">
               <div class="card">
                 <div class="imgBx">
@@ -226,7 +226,7 @@
 
           
 
-          <div class="feature-col col-lg-4 col-xs-12">
+          <div class="feature-col col-lg-4 col-xs-12" id="adm">
             <div data-aos="fade-down" class="container-c">
               <div class="card">
                 <div class="imgBx">
@@ -242,7 +242,7 @@
             </div>
           </div>
 
-          <div class="feature-col col-lg-4 col-xs-12">
+          <div class="feature-col col-lg-4 col-xs-12" id="leg">
             <div data-aos="fade-down" class="container-c">
               <div class="card">
                 <div class="imgBx">
@@ -263,7 +263,7 @@
         
 
         <div class="row">
-          <div class="feature-col col-lg-4 col-xs-12">
+          <div class="feature-col col-lg-4 col-xs-12" id="civ">
             <div data-aos="fade-down" class="container-c">
               <div class="card">
                 <div class="imgBx">
@@ -279,7 +279,7 @@
             </div>
           </div>
 
-          <div class="feature-col col-lg-4 col-xs-12">
+          <div class="feature-col col-lg-4 col-xs-12" id="pro">
             <div data-aos="fade-down" class="container-c">
               <div class="card">
                 <div class="imgBx">
@@ -304,7 +304,7 @@
             </div>
           </div>
 
-          <div class="feature-col col-lg-4 col-xs-12">
+          <div class="feature-col col-lg-4 col-xs-12" id="not">
             <div data-aos="fade-down" class="container-c">
               <div class="card">
                 <div class="imgBx">
@@ -624,9 +624,9 @@
             <div class="form">
               <div id="sendmessage">Tu mensaje a sido enviado con exito!</div>
               <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
+              <form action="enviar.php" method="post" role="form" class="contactForm">
                   <div data-aos="fade-right" class="form-group">
-                    <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <input type="text" name="names" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                     <div class="validation"></div>
                   </div>
                   <div data-aos="fade-right" class="form-group">
@@ -634,11 +634,11 @@
                     <div class="validation"></div>
                   </div>
                   <div data-aos="fade-right" class="form-group">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <input type="text" class="form-control" name="asunto" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                     <div class="validation"></div>
                   </div>
                   <div data-aos="fade-right" class="form-group">
-                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensaje"></textarea>
+                    <textarea class="form-control" name="mensaje" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Mensaje"></textarea>
                     <div class="validation"></div>
                   </div>
                   <div data-aos="fade-right" class="text-center"><button type="submit">Enviar</button></div>
@@ -652,64 +652,41 @@
     <!-- FIN CONTACTENOS -->
 
     <!-- PIE DE PAGINA -->
-    <footer class="footer-distributed">
-      <div data-aos="fade-right" class="footer-left">
-        <h3>MENU<span>FINTECH</span></h3>
-
-        <p class="footer-links">
-          <a href="">Inicio
-          |
-          </a>
-          <a href="">Inicio
-          |
-          </a>
-          <a href="">Inicio
-          |
-          </a>
-          <a href="">Inicio
-          |
-          </a>
-          <a href="">Inicio
-          |
-          </a>
-
-        </p>
-
-        <p class="footer-company-name">Copyright 2021 <strong>AbogadosFintech</strong>
-        Todos los derechos reservados</p>
-      </div>
-
-      <div data-aos="fade-right" class="footer-center">
-        <div>
-          <i class="fa fa-map-marker"></i>
-          <p><span>Lorem, ipsum.</span></p>
+    <div class="footer-dark">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Nuestros Servicios</h3>
+              <ul>
+                <li><a href="#com">Derecho Comercial</a></li>
+                <li><a href="#adm">Derecho Administrativo</a></li>
+                <li><a href="#leg">Consultoria Legal</a></li>
+                <li><a href="#civ">Derecho Civil</a></li>
+                <li><a href="#pro">Procesos de Familia</a></li>
+                <li><a href="#not">Notariado y Registro</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Sobre Nosotros</h3>
+              <ul>
+                <li><a href="#dl">Derecho Laboral</a></li>
+                <li><a href="#rd">Redacción de documento</a></li>
+                <li><a href="#tl">Tramites legales</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 item text">
+              <h3>Abogados Fintech</h3>
+              <p>La firma atenderá sus consultas a través de diferentes canales y le permitirá acceder al sistema LegalWeb, para hacer seguimiento a los distintos servicios y áreas del derecho.</p>
+            </div>
+            <div class="col item social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a></div>
+          </div>
+          <p class="copyright">Desarrollado por Pegazus Technologies © 2021</p>
         </div>
-        <div>
-          <i class="fa fa-phone"></i>
-          <p>+57 333-333-333</p>
-        </div>
-        <div>
-          <i class="fa fa-envelope"></i>
-          <p><a href="#">jjj@example.com</a></p>
-        </div>
-      </div>
-
-      <div data-aos="fade-right" class="footer-right">
-        <p class="footer-company-about">
-          <span>Acerca de la firma</span>
-          <strong>Abogados Fitchman</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nobis.
-        </p>
-        <div class="footer-icons">
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-instagram"></i></a>
-          <a href="#"><i class="fa fa-linkedin"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-
-        </div>
-      </div>
-
-    </footer>
+      </footer>
+    </div>
     <!-- FIN PIE DE PAGINA -->
+
 
     <!-- <footer class="site-footer">
       <div class="bottom">
@@ -760,6 +737,12 @@
     </footer> -->
     <a class="scrolltop" href="#"><span class="fa fa-angle-up"></span></a> <!-- JavaScript
 
+
+    <-- WHATS APP -->
+    <a href="https://wa.me/+57313403602?text=Me%20gustaría%20saber%20el%20más%20sobre%20ustedes" class="whatsapp" target="_blank"> 
+      <i class="fa fa-whatsapp whatsapp-icon"></i>
+    </a>
+    <!-- FIN WHATS APP -->
 
     <!-- Required JavaScript Libraries -->
     <script src="lib/jquery/jquery.min.js"></script>
