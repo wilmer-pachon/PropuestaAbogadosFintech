@@ -49,17 +49,17 @@ a {
   Elements
   ================================================== */
 .btn {
-  background-color: #f6f6f5;
+  background-color: #084066;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 800;
-  color: #273338;
+  color: #FFF;
   padding: 15px 45px;
   border-radius: 50px;
 }
 
 .btn:hover {
-  background-color: #4c67af;
-  color: #fff;
+  background-color: #c9c374;
+  color: rgb(41, 40, 40);
 }
 
 .btn:focus {
