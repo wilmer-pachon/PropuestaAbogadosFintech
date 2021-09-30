@@ -824,7 +824,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   Portfolio Styling
   ================================================== */
 .portfolio {
-  background-color: #f0f0f0;
+  background-color: #fff;
   padding-bottom: 0;
 }
 
@@ -1079,12 +1079,139 @@ body.mobile-nav-active #mobile-nav-toggle {
   CONTACTENOS
   ================================================== */
 #contact {
-  background: #f0f0f0;
-  padding: 80px 0;
-  padding-right: 10rem;
+  background: #fff;
+  background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
 }
 
-#contact h2 {
+.contact-form{
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  margin: 50px 0;
+}
+
+.contact-form > * {
+  width: 50%;
+}
+
+.contact-form .first-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #cdc07c;
+}
+
+.contact-form .first-container .info div{
+  margin: 24px 0;
+}
+
+.info div h3{
+  color: #084066;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  padding-bottom: 10px;
+}
+
+.info div:first-of-type p{
+  max-width: 260px;
+  color: #fff;
+}
+
+.info div p{
+  color: #fff;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.sec-container{
+  padding: 30px;
+}
+
+.sec-container h2{
+  font-size: 30px;
+  font-weight: 600;
+  color: #084066;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sec-container form{
+  display: flex;
+  flex-direction: column;
+}
+
+.sec-container form .form-group{
+  margin-bottom: 10px;
+}
+
+.sec-container form .form-group *{ 
+  min-height: 50px;
+  border: 1px solid #e6e6e6;
+  padding: 0 20px;
+}
+
+.sec-container form .form-group:first-of-type input{
+  width: 50.1%;
+  margin-right: -5px;
+}
+
+.sec-container form .form-group input{
+  width: 100%;
+  font-size: 15px;
+  margin-top: -2px;
+}
+
+.sec-container form .form-group input::placeholder,
+.sec-container form .form-group textarea::placeholder{
+  color: #999;
+}
+
+.sec-container form .form-group textarea{
+  width: 100%;
+  min-height: 80px;
+  resize: none;
+  padding: 10px 20px;
+  margin-top: -1px;
+}
+
+.sec-container form button{
+	width: 200px;
+	height: 50px;
+	color:#fff;
+	background: #084066;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	border: 0;
+	position: relative;
+	left: calc(50% - 100px);
+	cursor: pointer;
+}
+
+.sec-container form button:hover{
+	background-color: #cdc07c;
+}
+
+@media (max-width: 700px){
+	.contact-form{
+		flex-direction: column-reverse;
+		width: 90vw;
+	}
+	.contact-form > * {
+		width: 100%;
+	}
+	.contact-form .first-container{
+		padding: 40px 0;
+	}
+}
+
+/* #contact h2 {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   color: #273338;
 }
@@ -1153,7 +1280,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form button[type="submit"]:hover {
   background: #273338;
-}
+} */
 
 /* ==================================================
   PIE DE PAGINA
@@ -1633,4 +1760,7 @@ footer {
 
   
 }
+
+
+
 
