@@ -102,7 +102,7 @@ a:hover {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: #084066;
+  background: #cdc07c;
   color: #fff;
   text-align: center;
   font-size: 24px;
@@ -504,7 +504,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 ================================================== */
 
 .about{
-  background-color: #f0f0f0;
+  background-color: #fff;
 }
 
 .container-card {
@@ -1289,7 +1289,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .footer-dark{
   padding: 50px 0;
   color: #cdc07c;
-  background-color: #273338;
+  background-color: #084066;
 }  
 
 .footer-dark h3{
