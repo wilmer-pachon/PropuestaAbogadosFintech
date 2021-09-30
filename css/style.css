@@ -14,8 +14,8 @@ h6 {
 
 p {
   line-height: 1.55;
-  color: #333;
-  font-size: 400;
+  color: #084066;
+  font-size: 600;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
 
@@ -26,6 +26,7 @@ h1 {
 h2 {
   font-size: 30px;
   margin-bottom: 65px;
+  color: #cdc07c;
 }
 
 h3 {
@@ -49,17 +50,17 @@ a {
   Elements
   ================================================== */
 .btn {
-  background-color: #f6f6f5;
+  background-color: #084066;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 800;
-  color: #273338;
+  color: #FFF;
   padding: 15px 45px;
   border-radius: 50px;
 }
 
 .btn:hover {
-  background-color: #4c67af;
-  color: #fff;
+  background-color: #c9c374;
+  color: rgb(41, 40, 40);
 }
 
 .btn:focus {
@@ -101,7 +102,7 @@ a:hover {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  background: #4c67af;
+  background: #084066;
   color: #fff;
   text-align: center;
   font-size: 24px;
@@ -196,7 +197,7 @@ a:hover {
   Header Styling
 ================================================== */
 #header {
-  background: #5b666b;
+  background: #084066;
   height: 70px;
 }
 
@@ -253,7 +254,7 @@ a:hover {
 }
 
 #header .social-nav a:hover {
-  color: rgba(255, 255, 255, 0.75);
+  color: #cdc07c;
 }
 
 /*--------------------------------------------------------------
@@ -342,7 +343,7 @@ a:hover {
 .nav-menu a:hover,
 .nav-menu li:hover > a,
 .nav-menu .menu-active > a {
-  color: rgba(255, 255, 255, 0.75);
+  color: #cdc07c;
 }
 
 .nav-menu ul {
@@ -368,7 +369,7 @@ a:hover {
 }
 
 .nav-menu ul li a {
-  color: #333;
+  color: #cdc07c;
   -webkit-transition: none;
   -o-transition: none;
   transition: none;
@@ -418,7 +419,7 @@ a:hover {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: #4c67af;
+  background: #cdc07c;
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -501,6 +502,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* ==================================================
   NOSOTROS Stats Styling
 ================================================== */
+
+.about{
+  background-color: #f0f0f0;
+}
+
 .container-card {
   position: relative;
   display: flex;
@@ -555,7 +561,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #111110;
+  background: #084066;
   transform: scaleX(0);
   transform-origin: left;
   transition: 0.5s;
@@ -593,7 +599,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
   margin-top: 10px;
   padding: 5px 10px;
-  background: #4c67af;
+  background: #cdc07c;
   text-decoration: none;
   color: #fff;
 }
@@ -741,7 +747,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #4c67af;
+  background: #084066;
   transform: scaleX(0);
   transition: transform 0.5s ease-in-out;
   transform-origin: right;
@@ -818,7 +824,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   Portfolio Styling
   ================================================== */
 .portfolio {
-  background-color: #fff;
+  background-color: #f0f0f0;
   padding-bottom: 0;
 }
 
@@ -852,7 +858,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 360px;
   height: 93%;
   margin: 10px;
-  background: #4c67af;
+  background: #cdc07c;
   top: 0;
   left: 0;
   text-align: center;
@@ -932,7 +938,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #4c67af;
+  background: #cdc07c;
   z-index: 1;
   display: flex;
   justify-content: center;
@@ -988,13 +994,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .team .card h4 {
-  color: #4f67ae;
+  color: #084066;
   text-transform: uppercase;
 }
 
 .team .card p {
   font-size: 14px;
-  color: #4c67af;
+  color: #cdc07c;
   opacity: 0.75;
   margin: 0;
   padding: 0 35px;
@@ -1005,7 +1011,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .team .card .social-nav a {
-  color: #fff;
+  color: #cdc07c;
   font-size: 16px;
   margin: 0 4px;
 }
@@ -1020,12 +1026,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .team .card:hover .card-title-wrap {
-  background-color: #4c67af;
+  background-color: #084066;
 }
 
 .team .card:hover .card-title-wrap .card-title,
 .team .card:hover .card-title-wrap .card-text {
-  color: #fff;
+  color: #cdc07c;
 }
 
 .team .team-over {
@@ -1073,7 +1079,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   CONTACTENOS
   ================================================== */
 #contact {
-  background: #f7f7f7;
+  background: #f0f0f0;
   padding: 80px 0;
   padding-right: 10rem;
 }
@@ -1085,7 +1091,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: #273338;
+  color: #cdc07c;
   float: left;
 }
 
@@ -1095,8 +1101,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #4c67af;
-  border: 1px solid #4c67af;
+  color: #084066;
+  border: 1px solid #084066;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1136,7 +1142,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #4c67af;
+  background: #cdc07c;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1155,7 +1161,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .footer-dark{
   padding: 50px 0;
-  color: #fff;
+  color: #cdc07c;
   background-color: #273338;
 }  
 
@@ -1175,7 +1181,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-dark ul a{
-  color: #fff;
+  color: #cdc07c;
   text-decoration: none;
   opacity: 0.6;
 }
@@ -1229,7 +1235,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 50%;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
   margin: 10px;
-  color: #fff;
+  color: #cdc07c;
   opacity: 0.75;
 }
 
